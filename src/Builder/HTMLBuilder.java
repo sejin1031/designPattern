@@ -1,7 +1,7 @@
 package Builder;
 import java.io.*;
 
-public class HTMLBuilder extends Builder {
+public class HTMLBuilder implements Builder {
     private String filename;
     private PrintWriter writer;
 
